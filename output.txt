@@ -1,0 +1,11 @@
+ArrayList time to add 10000 dogs: 16 milliseconds
+ArrayList time to sort: 16 milliseconds
+ArrayList time to shuffle: 6 milliseconds
+ArrayList time to get 1,000,000 random dogs: 51 milliseconds
+ArrayList time to get elements sequentially: 0 milliseconds
+--------------------------------------------------
+LinkedList time to add 10000 dogs: 17 milliseconds
+LinkedList time to sort: 9 milliseconds
+LinkedList time to shuffle: 4 milliseconds
+LinkedList time to get 1,000,000 random dogs: 32529 milliseconds
+LinkedList time to get elements sequentially: 262 milliseconds
