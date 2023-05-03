@@ -75,13 +75,13 @@ public class ListAnalysisMain
         System.out.println("LinkedList time to shuffle: " + (endTime - startTime)+" milliseconds");
 
         //get a ranodm object 1,000,000 times from the LinkedList
-        // startTime = System.currentTimeMillis();
-        // for (int i = 0; i < 1000000; i++) {
-        //     int randomIndex = (int) (Math.random() * NUM_DOGS);
-        //     dogsList.get(randomIndex);
-        // }
-        // endTime = System.currentTimeMillis();
-        // System.out.println("LinkedList time to get 1,000,000 random dogs: " + (endTime - startTime)+" milliseconds");
+        startTime = System.currentTimeMillis();
+        for (int i = 0; i < 1000000; i++) {
+            int randomIndex = (int) (Math.random() * NUM_DOGS);
+            dogsList.get(randomIndex);
+        }
+        endTime = System.currentTimeMillis();
+        System.out.println("LinkedList time to get 1,000,000 random dogs: " + (endTime - startTime)+" milliseconds");
 
         //create a loop to get each object in the list sequentially
         startTime = System.currentTimeMillis();
